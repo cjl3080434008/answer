@@ -2,14 +2,14 @@
 
 dir
 9229
-svn://192.168.1.200/blackwater/src/trunk/server/gameserver/libanswer/src
+svn://192.168.1.200/blackwater/src/trunk/server/gameserver/libanswer/include
 svn://192.168.1.200/blackwater
 
 
 
-2013-10-08T05:11:20.708273Z
-9155
-wangweiyue
+2013-08-26T11:28:12.252317Z
+8431
+tongchenhao
 
 
 
@@ -26,220 +26,16 @@ wangweiyue
 
 d9bf1bd2-a75b-49cf-ab9a-5d6de22fdee3
 
-RwLock.cpp
+stdafx.h
 file
 
 
 
 
-2013-10-11T05:01:26.562500Z
-373ac4dca39a20944c56f710c7bc2773
-2012-09-25T09:03:06.193468Z
-3
-wangweiyue
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-718
-
-Mutex.cpp
-file
-
-
-
-
-2013-10-11T05:01:26.562500Z
-a75506c83ef7ebca5111add5b18053e6
-2012-09-25T09:03:06.193468Z
-3
-wangweiyue
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-745
-
-Zip.cpp
-file
-
-
-
-
-2013-10-11T05:01:26.562500Z
-3d2fb41a066ab20b640dd80bebad856d
-2012-09-25T09:03:06.193468Z
-3
-wangweiyue
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1468
-
-Application.cpp
-file
-
-
-
-
-2013-10-11T05:01:26.562500Z
-9b56f58149203d8a02264fed72816949
-2012-09-25T09:03:06.193468Z
-3
-wangweiyue
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1930
-
-Database.cpp
-file
-
-
-
-
-2013-10-11T05:01:26.562500Z
-67d9eca7f8c21568f5b1c8873335f7bc
-2012-09-25T09:03:06.193468Z
-3
-wangweiyue
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7091
-
-SockOpts.cpp
-file
-
-
-
-
-2013-10-11T05:01:26.562500Z
-3b557057475aa1bac551c058d87d9a97
-2012-09-25T09:03:06.193468Z
-3
-wangweiyue
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4550
-
-InetAddress.cpp
-file
-
-
-
-
-2013-10-11T05:01:26.562500Z
-c27c79fff9b8c4f63d6bc8c23a8363a3
-2013-08-26T11:28:17.439356Z
-8432
+2013-10-11T05:01:26.484375Z
+2473ae6ed2d779d43a40348f06da6ce5
+2013-08-26T11:28:12.252317Z
+8431
 tongchenhao
 
 
@@ -262,18 +58,86 @@ tongchenhao
 
 
 
-1100
+2001
 
-TcpConnection.cpp
+StringUtility.h
 file
 
 
 
 
-2013-10-11T05:01:26.562500Z
-74c04aa3ffbaf1b87ccd6fed98ee84cd
-2013-08-26T11:28:17.439356Z
-8432
+2013-10-11T05:01:26.484375Z
+7e78ba19cc09cb87c05174e0030c108e
+2012-09-25T09:03:06.193468Z
+3
+wangweiyue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+347
+
+TcpMultiplexor.h
+file
+
+
+
+
+2013-10-11T05:01:26.484375Z
+d1846c708be822568901532b8a0cc7e5
+2012-09-25T09:03:06.193468Z
+3
+wangweiyue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1108
+
+DayTime.h
+file
+
+
+
+
+2013-10-11T05:01:26.484375Z
+951dc5fe7bac8a95512dac123d55b8cc
+2013-08-26T11:28:12.252317Z
+8431
 tongchenhao
 
 
@@ -296,18 +160,188 @@ tongchenhao
 
 
 
-11327
+788
 
-TcpAcceptor.cpp
+RwLock.h
 file
 
 
 
 
-2013-10-11T05:01:26.562500Z
-dd6b83176a5c8092d168bffe42918a74
-2013-08-26T11:28:17.439356Z
-8432
+2013-10-11T05:01:26.484375Z
+f0b3aefa3b3e9e8c0608eefe94a81ca9
+2012-09-25T09:03:06.193468Z
+3
+wangweiyue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+725
+
+Singleton.h
+file
+
+
+
+
+2013-10-11T05:01:26.484375Z
+6ca7bb89ab9f4067b6703dfb2f6286da
+2012-09-25T09:03:06.193468Z
+3
+wangweiyue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+287
+
+Application.h
+file
+
+
+
+
+2013-10-11T05:01:26.484375Z
+6d0c34423f5b9c86d490ca2dc4012410
+2012-09-25T09:03:06.193468Z
+3
+wangweiyue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+493
+
+Database.h
+file
+
+
+
+
+2013-10-11T05:01:26.484375Z
+582370a1552b3a2691b9418fcb762a82
+2012-09-25T09:03:06.193468Z
+3
+wangweiyue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1652
+
+InetAddress.h
+file
+
+
+
+
+2013-10-11T05:01:26.484375Z
+64eddff36d1d2263b416f8c5132c373c
+2012-09-25T09:03:06.193468Z
+3
+wangweiyue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+489
+
+TcpConnection.h
+file
+
+
+
+
+2013-10-11T05:01:26.484375Z
+df1e29b64a15f2392aa71d5727f7a757
+2013-08-26T11:28:12.252317Z
+8431
 tongchenhao
 
 
@@ -330,18 +364,18 @@ tongchenhao
 
 
 
-5143
+1710
 
-TcpService.cpp
+TcpService.h
 file
 
 
 
 
-2013-10-11T05:01:26.562500Z
-4c8c5bb47c87b8a892511702602bed13
-2013-08-26T11:28:17.439356Z
-8432
+2013-10-11T05:01:26.484375Z
+364a6b7e2f808b03ae15645d7625f56c
+2013-08-26T11:28:12.252317Z
+8431
 tongchenhao
 
 
@@ -364,16 +398,16 @@ tongchenhao
 
 
 
-3280
+709
 
-Thread.cpp
+Thread.h
 file
 
 
 
 
-2013-10-11T05:01:26.562500Z
-868f4f6d619417023ecb007f44da2cc4
+2013-10-11T05:01:26.484375Z
+52aae214cb7acf996a06a75bb7b5f903
 2012-09-25T09:03:06.193468Z
 3
 wangweiyue
@@ -398,86 +432,18 @@ wangweiyue
 
 
 
-565
+379
 
-NetPacketPool.cpp
+TcpServer.h
 file
 
 
 
 
-2013-10-11T05:01:26.562500Z
-e36caf0b7558dd9b8acd2cd1366f987c
-2012-09-25T09:03:06.193468Z
-3
-wangweiyue
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1397
-
-makefile_tencent
-file
-
-
-
-
-2013-10-11T05:01:26.562500Z
-38dd755917792b49e1b2b1a199c08cc8
-2013-09-13T02:16:41.870503Z
-8883
-wangweiyue
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-498
-
-TcpServer.cpp
-file
-
-
-
-
-2013-10-11T05:01:26.562500Z
-f5d42d6765cd6f9d24fc7d6f52242b2c
-2013-08-26T11:28:17.439356Z
-8432
+2013-10-11T05:01:26.484375Z
+f3a63eb0855da9a58ecef7cdd6b9918c
+2013-08-26T11:28:12.252317Z
+8431
 tongchenhao
 
 
@@ -500,50 +466,16 @@ tongchenhao
 
 
 
-2134
+1246
 
-makefile2
+DBPool.h
 file
 
 
 
 
-2013-10-11T05:01:26.562500Z
-9936fbb22ba70a281021215ac60137f5
-2013-07-29T06:47:30.819050Z
-7546
-wangweiyue
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-484
-
-Logger.cpp
-file
-
-
-
-
-2013-10-11T05:01:26.562500Z
-ee95d4e4fddaa9246aa6b58af4814ccf
+2013-10-11T05:01:26.484375Z
+3162ae90b811bbfb16676042ebd007e1
 2012-09-25T09:03:06.193468Z
 3
 wangweiyue
@@ -568,16 +500,16 @@ wangweiyue
 
 
 
-1538
+848
 
-Inifile.cpp
+Inifile.h
 file
 
 
 
 
-2013-10-11T05:01:26.562500Z
-e11b58a6f970c9fe0b5a71e25ca2f8e9
+2013-10-11T05:01:26.484375Z
+c022f5190f79fa7ceebc663c62298e94
 2012-09-25T09:03:06.193468Z
 3
 wangweiyue
@@ -602,16 +534,16 @@ wangweiyue
 
 
 
-2172
+603
 
-DBPool.cpp
+Random.h
 file
 
 
 
 
-2013-10-11T05:01:26.562500Z
-ea55c65c3c31afd278767da2af77bb76
+2013-10-11T05:01:26.484375Z
+e0884499efc13cfcd3a75487f2f97faf
 2012-09-25T09:03:06.193468Z
 3
 wangweiyue
@@ -636,16 +568,16 @@ wangweiyue
 
 
 
-1641
+330
 
-Random.cpp
+SpinLock.h
 file
 
 
 
 
-2013-10-11T05:01:26.562500Z
-ba37b8f981bd5a812fecc2e2debfbb11
+2013-10-11T05:01:26.484375Z
+dc152342d985130c815d13048e4d26e7
 2012-09-25T09:03:06.193468Z
 3
 wangweiyue
@@ -670,16 +602,16 @@ wangweiyue
 
 
 
-426
+517
 
-SpinLock.cpp
+SafeQueue.h
 file
 
 
 
 
-2013-10-11T05:01:26.562500Z
-b2eba875612df7c42acd77e936f6ded4
+2013-10-11T05:01:26.484375Z
+c2363454c1a70542c3cb89a76fc66753
 2012-09-25T09:03:06.193468Z
 3
 wangweiyue
@@ -704,16 +636,16 @@ wangweiyue
 
 
 
-511
+965
 
-MD5.cpp
+MD5.h
 file
 
 
 
 
-2013-10-11T05:01:26.562500Z
-82fdbde2f0f88328f4fd9406d8544fd7
+2013-10-11T05:01:26.484375Z
+71d0e1ab495648fa830d51d74ee44c9e
 2012-09-25T09:03:06.193468Z
 3
 wangweiyue
@@ -738,18 +670,290 @@ wangweiyue
 
 
 
-11191
+5175
 
-TcpClient.cpp
+TcpProcessor.h
 file
 
 
 
 
-2013-10-11T05:01:26.562500Z
-402b3c44ed80f1d44fce44df6eb7673e
-2013-08-26T11:28:17.439356Z
-8432
+2013-10-11T05:01:26.484375Z
+3ad696fb517f8ea60a651d7d73b4f3a7
+2012-09-25T09:03:06.193468Z
+3
+wangweiyue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1316
+
+libanswer.h
+file
+
+
+
+
+2013-10-11T05:01:26.484375Z
+7f958bfe409e6e362ac43cdba71d49d7
+2012-09-25T09:03:06.193468Z
+3
+wangweiyue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+648
+
+BlockingQueue.h
+file
+
+
+
+
+2013-10-11T05:01:26.484375Z
+930a5a01ef374e77570181a60a69c799
+2012-09-25T09:03:06.193468Z
+3
+wangweiyue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+670
+
+ObjectPool.h
+file
+
+
+
+
+2013-10-11T05:01:26.484375Z
+eaf250ffd12724380f152d0822c48de2
+2012-09-25T09:03:06.193468Z
+3
+wangweiyue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+886
+
+Mutex.h
+file
+
+
+
+
+2013-10-11T05:01:26.484375Z
+49e643234b8e96d0dcbea896ecc2825c
+2012-09-25T09:03:06.193468Z
+3
+wangweiyue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+514
+
+Zip.h
+file
+
+
+
+
+2013-10-11T05:01:26.484375Z
+43746f1e09bdd06a2a47565c8b586cb2
+2012-09-25T09:03:06.193468Z
+3
+wangweiyue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+384
+
+SockOpts.h
+file
+
+
+
+
+2013-10-11T05:01:26.484375Z
+a12a0687256856ffe36b311029ec8b49
+2012-09-25T09:03:06.193468Z
+3
+wangweiyue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+552
+
+LinuxErrno.h
+file
+
+
+
+
+2013-10-11T05:01:26.484375Z
+23ee727cf400ad5e2b2c61fae2ad5480
+2012-09-25T09:03:06.193468Z
+3
+wangweiyue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8162
+
+TcpAcceptor.h
+file
+
+
+
+
+2013-10-11T05:01:26.500000Z
+2a805a6b5e4661fca212f598bb8df806
+2013-08-26T11:28:12.252317Z
+8431
 tongchenhao
 
 
@@ -772,16 +976,16 @@ tongchenhao
 
 
 
-7497
+1201
 
-Condition.cpp
+NetPacketPool.h
 file
 
 
 
 
-2013-10-11T05:01:26.562500Z
-2641591e7c2a1231271dd00c487ea80e
+2013-10-11T05:01:26.500000Z
+f17bab8dcc215ced2522436d40eec886
 2012-09-25T09:03:06.193468Z
 3
 wangweiyue
@@ -806,16 +1010,16 @@ wangweiyue
 
 
 
-683
+469
 
-TcpProcessor.cpp
+ArrayList.h
 file
 
 
 
 
-2013-10-11T05:01:26.562500Z
-2697e6d61ee53c0a8dbebe5b2c47c035
+2013-10-11T05:01:26.500000Z
+dafc2531643a5ad5c80d965ae8e4fa53
 2012-09-25T09:03:06.193468Z
 3
 wangweiyue
@@ -840,18 +1044,18 @@ wangweiyue
 
 
 
-2077
+1173
 
-TcpSelector.cpp
+NetPacket.h
 file
 
 
 
 
-2013-10-11T05:01:26.562500Z
-c8e465c9f089a0441c87200f95b26356
-2013-08-26T11:28:17.439356Z
-8432
+2013-10-11T05:01:26.500000Z
+e565384f4d12952ca7705fd0f9c13821
+2013-03-20T06:47:08.678668Z
+2831
 tongchenhao
 
 
@@ -874,16 +1078,16 @@ tongchenhao
 
 
 
-2490
+6795
 
-StringUtility.cpp
+RandGen.h
 file
 
 
 
 
-2013-10-11T05:01:26.562500Z
-0cc08237654cbbf08970fbb0dc9d5746
+2013-10-11T05:01:26.500000Z
+7f63fa6dd31c114d542181f2d64f2436
 2012-09-25T09:03:06.193468Z
 3
 wangweiyue
@@ -908,118 +1112,16 @@ wangweiyue
 
 
 
-1336
+1514
 
-TcpMultiplexor.cpp
+Logger.h
 file
 
 
 
 
-2013-10-11T05:01:26.562500Z
-53bf86a1cc6c4089b961ea5ae577a68f
-2013-08-26T11:28:17.439356Z
-8432
-tongchenhao
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5990
-
-DayTime.cpp
-file
-
-
-
-
-2013-10-11T05:01:26.562500Z
-f339b10d3a4a7c70b83c3f83cacfad4c
-2013-08-26T11:28:17.439356Z
-8432
-tongchenhao
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3064
-
-makefile
-file
-
-
-
-
-2013-10-11T05:01:26.562500Z
-9936fbb22ba70a281021215ac60137f5
-2013-10-08T05:11:20.708273Z
-9155
-wangweiyue
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-484
-
-makefile_so
-file
-
-
-
-
-2013-10-11T05:01:26.562500Z
-184176d3d9513ad65761dcb900bf967c
+2013-10-11T05:01:26.500000Z
+7d95c6c964651e3a4ab888dc99617a3a
 2012-09-25T09:03:06.193468Z
 3
 wangweiyue
@@ -1044,5 +1146,141 @@ wangweiyue
 
 
 
-824
+998
+
+mtrandom.h
+file
+
+
+
+
+2013-10-11T05:01:26.500000Z
+ca6cc5ea0bb3aae9408f8831fef87a60
+2012-09-25T09:03:06.193468Z
+3
+wangweiyue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2792
+
+TcpClient.h
+file
+
+
+
+
+2013-10-11T05:01:26.500000Z
+6c371e5b9af7badb558aca385a1aa637
+2012-09-25T09:03:06.193468Z
+3
+wangweiyue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1424
+
+Condition.h
+file
+
+
+
+
+2013-10-11T05:01:26.500000Z
+eb0b1c52ca0977ba316d8f18435c97d4
+2012-09-25T09:03:06.193468Z
+3
+wangweiyue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+403
+
+TcpSelector.h
+file
+
+
+
+
+2013-10-11T05:01:26.500000Z
+af5700fac6f87d6666136bb99d9da0c8
+2012-09-25T09:03:06.193468Z
+3
+wangweiyue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+767
 
