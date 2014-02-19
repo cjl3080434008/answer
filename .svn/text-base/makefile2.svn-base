@@ -1,0 +1,25 @@
+TARGET = libanswer.a
+
+OBJPATH = ../obj
+
+LIBPATH = /usr/lib64
+
+CFLAGS = -g -O2 -Wall -I../include -I/usr/local/mysql/include/mysql -DLIBANSWER_LINUX
+
+OBJS = $(patsubst %.cpp, $(OBJPATH)/%.o, $(notdir $(wildcard *.cpp)))
+
+$(OBJPATH)/%.o : %.cpp
+	$(CXX) -c $(CFLAGS) $< -o $@
+
+all : $(TARGET)
+
+$(TARGET) : $(OBJS)
+	$(AR) -rcs $(OBJPATH)/$(TARGET) $(OBJS) 
+
+install:
+	@cp $(OBJPATH)/$(TARGET) $(LIBPATH)
+
+clean:
+	@rm -f $(OBJPATH)/*
+	@rm -f $(LIBPATH)/$(TARGET)
+

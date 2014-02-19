@@ -1,0 +1,36 @@
+TARGET = libanswer.so.1.0.0
+
+SONAME = libanswer.so.1
+
+LINK = libanswer.so
+
+OBJPATH = ../obj
+
+LIBPATH = /usr/local/lib
+
+CFLAGS = -g -O2 -Wall -fpic -I../include -I/usr/local/mysql/include/mysql -DLIBANSWER_LINUX
+
+LFLAGS = -L/usr/lib/mysql -lmysqlclient -lpthread -lz -shared -Wl,-soname,$(SONAME)
+
+OBJS = $(patsubst %.cpp, $(OBJPATH)/%.o, $(notdir $(wildcard *.cpp)))
+
+$(OBJPATH)/%.o : %.cpp
+	$(CXX) -c $(CFLAGS) $< -o $@
+
+all : $(TARGET)
+
+$(TARGET) : $(OBJS)
+	$(CXX) -o $(OBJPATH)/$(TARGET) $(LFLAGS) $(OBJS) 
+
+install:
+	@cp $(OBJPATH)/$(TARGET) $(LIBPATH)
+	@ln -s $(LIBPATH)/$(TARGET) $(LIBPATH)/$(SONAME) 
+	@ln -s $(LIBPATH)/$(TARGET) $(LIBPATH)/$(LINK)
+	@/sbin/ldconfig
+
+clean:
+	@rm -f $(OBJPATH)/*
+	@rm -f $(LIBPATH)/$(LINK)
+	@rm -f $(LIBPATH)/$(SONAME)
+	@rm -f $(LIBPATH)/$(TARGET)
+
